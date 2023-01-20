@@ -44,5 +44,5 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
-![Demo Video](https://drive.google.com/file/d/1ptoYYDo_bnlo0KcLF_jK5cUNG04MGSSa/view)
+[Demo Video](https://drive.google.com/file/d/1ptoYYDo_bnlo0KcLF_jK5cUNG04MGSSa/view)
 
