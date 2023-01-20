@@ -1,0 +1,23 @@
+{
+  "name": "readmelikeabook",
+  "version": "1.0.0",
+  "description": "Dynamically create a README file for your project by getting pelted with questions on your terminal. This is not for the weak of heart, but the for the strong of mind (also for those that that don't know how to structure a README file)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geckogiggles/READMElikeabook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geckogiggles/READMElikeabook/issues"
+  },
+  "homepage": "https://github.com/Geckogiggles/READMElikeabook#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
