@@ -1,4 +1,5 @@
 const fs = require('fs');
+const generateMarkdown = require ('generateREADME')
 
 const inquirer = require("inquirer");
 const { default: Choices } = require('inquirer/lib/objects/choices');
@@ -70,43 +71,7 @@ const promptUser = () => {
         },
     ])
 };
-const generateREADME =({projectTitle, technologies, techReasons, motivation, reasonsforBuild, learningPoints, unique, usage, reportingIssues, features, contributions, license}) =>
-`
-# ${projectTitle}
-## Table of Contents:
-[Technologies](#Technologies-Used:)
-[Motivations](#Motivations)
-[Purpose of Project](#Purpose-of-Project)
-[How are We Different?](#How-are-We-Different?)
-[Usage of Application](#Usage-of-Application:)
-[Screenshots](#Screenshots-of-Application)
-[Reporting Issues](#Reporting-Issues:)
-[Features of Application](#Features-of-Application:)
-[How to Contribute](#How-to-Contribute:)
-[License Information](#License-Information:)
-## Technologies Used:
-${technologies}
-## Reasons for These Technologies:
-${techReasons}
-## Motivations
-${motivation}
-## Purpose of Project
-${reasonsforBuild}
-## Learning Points:
-${learningPoints}
-## How are We different?
-${unique}
-## Usage of Application:
-${usage}
-## Reporting Issues:
-${reportingIssues}
-## Features of Application:
-${features}
-## How to Contribute:
-${contributions}
-## License Information
-${license}
-`
+
 const init = () => {
     promptUser()
         .then((answers) => writeFile('README.md', generateREADME(answers)))
