@@ -1,11 +1,9 @@
 const fs = require('fs');
-const generateMarkdown = require ('generateREADME')
+const generateREADME = require('./Utils/generateMarkdown')
 
 const inquirer = require("inquirer");
-const { default: Choices } = require('inquirer/lib/objects/choices');
-const { title } = require('process');
+
 const { writeFile } = require("fs").promises;
-let screenshotArray = []
 const promptUser = () => {
     return inquirer.prompt([
         {
@@ -58,13 +56,13 @@ const promptUser = () => {
         },
         {
         type:'input',
-        name: 'reasonsforBuild',
-        message: 'What problem or need did this project help solve?',
+        name: 'github',
+        message: 'What is your Github username?',
         validate: (value) => {
             if (value) {
                 return true;
                 } else{
-                    console.log('Please enter what were some problems solved by this application.')
+                    console.log('Please enter your Github username.')
                 }
             }
         },
@@ -83,12 +81,12 @@ const promptUser = () => {
         {
         type:'input',
         name: 'unique',
-        message: 'What makes this project unique from others?(Ex:"This project is unique because ...", you can also list contributors and what your team added to the application)',
+        message: 'What makes this project unique from others? Who are the authors of this project? (Ex:"The authors of this project are:...This project is unique because ...", you can also list contributors and what your team added to the application)',
         validate: (value) => {
             if (value) {
                 return true;
                 } else{
-                    console.log('Please tell us why your project is unique!')
+                    console.log('Please tell us why your project is unique & what are your names?!')
                 }
             }
         },
@@ -136,7 +134,7 @@ const promptUser = () => {
             if (value) {
                 return true;
                 } else{
-                    console.log('A default fork and push will be inserted.')
+                    console.log('A default fork and pull workflow will be inserted.')
                     return (forkandPull)
                 }
             }
@@ -144,15 +142,18 @@ const promptUser = () => {
         {
         type:'list',
         name: 'license',
-        message: 'What liscence is this project under?',
-        choices:['GNU AGPLv3','GNU GPLv3','GNU LGPLv3','Mozilla Public License 2.0','Apache License 2.0', 'MIT License','Boost Software License 1.0','The Unlicense']
+        message: 'What license is this project under?',
+        choices:['GNU AGPLv3','GNU GPLv3','GNU LGPLv3','Mozilla Public License 2.0','Apache License 2.0', 'MIT License','Boost Software License 1.0','The Unlicense'],        
         },
     ])
 };
 
 const init = () => {
     promptUser()
-        .then((answers) => writeFile('README.md', generateREADME(answers)))
+        .then((userInput) =>{
+            console.log(userInput)
+            writeFile('./Utils/README.md', generateREADME(userInput))
+            })
         .then(() => console.log('Successfully wrote to README.md'))
         .catch((err) => console.error(err));
   };

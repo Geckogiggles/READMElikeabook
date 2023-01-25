@@ -1,35 +1,41 @@
 
-# Eva's project
-## Table of Contents:
-[Technologies](#Technologies-Used:)
-[Motivations](#Motivations)
-[Purpose of Project](#Purpose-of-Project)
-[How are We Different?](#How-are-We-Different?)
-[Usage of Application](#Usage-of-Application:)
-[Screenshots](#Screenshots-of-Application)
-[Reporting Issues](#Reporting-Issues:)
-[Features of Application](#Features-of-Application:)
-[How to Contribute](#How-to-Contribute:)
-[License Information](#License-Information:)
+# sg
+
+#### Table of Contents:
+
+- [sg](#sg)
+      - [Table of Contents:](#table-of-contents)
+  - [Technologies Used:](#technologies-used)
+  - [Reasons for These Technologies:](#reasons-for-these-technologies)
+  - [Motivations](#motivations)
+  - [Github](#github)
+  - [Learning Points:](#learning-points)
+  - [Who Are We?](#who-are-we)
+  - [Usage of Application:](#usage-of-application)
+  - [Reporting Issues:](#reporting-issues)
+  - [Features of Application:](#features-of-application)
+  - [How to Contribute:](#how-to-contribute)
+  - [License Information](#license-information)
+
 ## Technologies Used:
-This is meant to be used to do things
+h
 ## Reasons for These Technologies:
-things will happen and blah blah
+s
 ## Motivations
-more things
-## Purpose of Project
-This project solves many issues
+g
+## Github
+![Github:h](https://github.com/h/)](https://github.com/h/)
 ## Learning Points:
-professionally, i learned a lot
-## How are We different?
-this is a great readme gen
+df
+## Who Are We?
+f
 ## Usage of Application:
-this project is intended for all
+undefined
 ## Reporting Issues:
-you can contact 555-555-555
+f
 ## Features of Application:
-this is a list i am making, more , more more, more more more
+f
 ## How to Contribute:
-things that you can do  are ...
+f
 ## License Information
-Apache License 2.0
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
