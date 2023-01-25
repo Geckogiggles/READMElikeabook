@@ -1,41 +1,38 @@
 
-# sg
+# Eva's Project
 
 #### Table of Contents:
 
-- [sg](#sg)
-      - [Table of Contents:](#table-of-contents)
-  - [Technologies Used:](#technologies-used)
-  - [Reasons for These Technologies:](#reasons-for-these-technologies)
-  - [Motivations](#motivations)
-  - [Github](#github)
-  - [Learning Points:](#learning-points)
-  - [Who Are We?](#who-are-we)
-  - [Usage of Application:](#usage-of-application)
-  - [Reporting Issues:](#reporting-issues)
-  - [Features of Application:](#features-of-application)
-  - [How to Contribute:](#how-to-contribute)
-  - [License Information](#license-information)
+* [Technologies Used](#technologies-used)
+* [Motivations](#motivations)
+* [Github](#github)
+* [Who Are We?](#who-are-we)
+* [Usage of Application](#usage-of-application)
+* [Screenshots](#screenshots-of-application)
+* [Reporting Issues](#reporting-issues)
+* [Features of Application](#features-of-application)
+* [How to Contribute](#how-to-contribute)
+* [License Information](#license-information)
 
 ## Technologies Used:
-h
+Java Script, HTML, CSS
 ## Reasons for These Technologies:
-s
+CSS and HTML allowed for the backbone of the webpage. JavaScript allowed for the logic
 ## Motivations
-g
+I enjoyed learning more about these coding environments
 ## Github
-![Github:h](https://github.com/h/)](https://github.com/h/)
+![Github:Geckogiggles](https://github.com/Geckogiggles/)](https://github.com/Geckogiggles/)
 ## Learning Points:
-df
+Professionally, I enjoyed working with Github Pages.
 ## Who Are We?
-f
+Eva Perez- Full Stack Developer.  This project showcases many strengthes
 ## Usage of Application:
 undefined
 ## Reporting Issues:
-f
+Please email: perez.judith.eva@gmail.com
 ## Features of Application:
-f
+html webpage, things, more things
 ## How to Contribute:
-f
+things that you would like to add can be added via fork and push
 ## License Information
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
