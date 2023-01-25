@@ -1,9 +1,12 @@
+//gives ability to write file later down the logic in this JS file
 const fs = require('fs');
+// the actual markdown for the README structure with template literals
 const generateREADME = require('./Utils/generateMarkdown')
 
 const inquirer = require("inquirer");
-
+// allows promises  later on in the logic of the file
 const { writeFile } = require("fs").promises;
+//inquirer prompts for the UserInput
 const promptUser = () => {
     return inquirer.prompt([
         {
