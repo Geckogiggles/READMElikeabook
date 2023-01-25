@@ -49,8 +49,12 @@ THEN I am taken to the corresponding section of the README
 
 ### Inquirer Demo via Terminal
 
-![Demo Video](https://drive.google.com/file/d/1p-0-83XCo_S3QLTOwIUNT5EBXwjBSk7w/view)(https://drive.google.com/file/d/1p-0-83XCo_S3QLTOwIUNT5EBXwjBSk7w/view)
+[Untitled_ Jan 24, 2023 10_32 PM.webm](https://user-images.githubusercontent.com/116981188/214475161-e71c08ef-46f2-4e80-b80b-0920d8cf3933.webm)
+
+[Demo Video](https://drive.google.com/file/d/1p-0-83XCo_S3QLTOwIUNT5EBXwjBSk7w/view)
 
 ### Generated README functionality
 
-![Generated README](https://drive.google.com/file/d/1kAYkt85R1AWDPrRoFQdTkGlLRnfxHlvM/view)(https://drive.google.com/file/d/1kAYkt85R1AWDPrRoFQdTkGlLRnfxHlvM/view)
+[Untitled_ Jan 24, 2023 10_37 PM.webm](https://user-images.githubusercontent.com/116981188/214475100-ddcfa371-0fd9-41b3-991c-2c5f7af48aef.webm)
+
+[Generated README](https://drive.google.com/file/d/1kAYkt85R1AWDPrRoFQdTkGlLRnfxHlvM/view)
